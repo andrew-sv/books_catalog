@@ -1,0 +1,26 @@
+{
+  "name": "books_catalog",
+  "version": "0.1.0",
+  "description": "Sample of books catalog",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/andrew-sv/books_catalog.git"
+  },
+  "author": "andrew-sv",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andrew-sv/books_catalog/issues"
+  },
+  "homepage": "https://github.com/andrew-sv/books_catalog",
+  "dependencies": {
+    "express": "*"
+  },
+  "script": {
+    "start": "node server.js"
+  }
+}
