@@ -1,0 +1,49 @@
+.header {
+	background-color: #888;
+	height: 25px;
+	padding: 0 10px;
+	border-radius: 5px;
+}
+.header .title {
+	font-size: 20px;
+	margin-left: 10px;
+	color: white;
+	display: inline-block;
+	vertical-align: middle;
+}
+.header .search {
+	float: right;
+}
+.header .search .edit {
+	border: 1px solid gray;
+	margin: 0;
+	display: inline-block;
+	vertical-align: middle;
+}
+.header .search .button {
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+	vertical-align: middle;
+}
+.content {
+	clear: both;
+	list-style: 0;
+	padding: 0;
+}
+.record:hover {
+	background-color: #ddd;
+}
+.record-icon {
+	width: 64px;
+	height: 64px;
+	margin: 10px 20px;
+}
+.record-link {
+	text-decoration: none;
+	color: #888;
+}
+.record-icon, .record-link {
+	display: inline-block;
+	vertical-align: middle;
+}
